@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackwater Saloon: Wanted or Wary?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Blackwater Saloon: Buckle Up, Partner</h1>
+    <p>Join the notorious posse or forge your own outlaw legend</p>
+  </header>
+
+  <main>
+    <section class="sign-in">
+      <h2>Dust Off Your Spurs</h2>
+      <form id="signin-form">
+        <label for="username">Alias on the Wanted Poster:</label><br>
+        <input type="text" id="username" name="username" required placeholder="Enter your outlaw moniker"><br><br>
+        <label for="password">Secret Saloon Passcode:</label><br>
+        <input type="password" id="password" name="password" required placeholder="Enter your hush-hush code"><br><br>
+        <button type="submit">Ride into the Sunset</button>
+      </form>
+    </section>
+
+    <section class="sign-up">
+      <h2>Craft Your Outlaw Legend</h2>
+      <form id="signup-form">
+        <label for="name">True Name for the Ledger (Keep it Under Wraps):</label><br>
+        <input type="text" id="name" name="name" required placeholder="Write your real name (hush!)"><br><br>
+        <label for="email">Reach You by Wire?</label><br>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address (for secret messages?)"><br><br>
+        <label for="age">Moons You've Witnessed?</label><br>
+        <input type="number" id="age" name="age" min="18" required placeholder="Enter your age (18+ only)"><br><br>
+        <label for="town">Where Do You Hang Your Hat?</label><br>
+        <input type="text" id="town" name="town" required placeholder="Enter your town or settlement"><br><br>
+        <label for="skills">Gunslinger, Gambler, Sharpshooter?</label><br>
+        <select id="skills" name="skills" required>
+          <option value="">Choose Your Skill (Wisely)</option>
+          <option value="gunslinger">Quick Draw</option>
+          <option value="gambler">Cardslinger</option>
+          <option value="sharpshooter">Dead Eye</option>
+          <option value="other">Other (Write It Out)</option>
+        </select>
+        <br><br>
+        <button type="submit">Join the Posse and Saddle Up</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  background-color: #202020; /* Dark brown */
+  color: #d4d4d4; /* Light grey */
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #303030; /* Medium brown */
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  margin: 10px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-in, .sign-up {
+  border: 1px solid #444; /* Dark grey */
+  border-radius: 5px;
+  background-color: #282828; /* Medium brown */
+  padding: 20px;
+  width: 350px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #999;
+}
+
+input[type="text"], input[type="number"], input[type="email"], select {
+  padding: 10px;
+  border: 1px solid #444; /* Dark grey */
+  border-radius: 3px;
+  margin-bottom: 15px;
+  width: 100%;
+  background-color: #1c1c1c; /* Dark red */
+  color: #d4d4d4; /* Light grey */
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus, select:focus {
+  outline: none;
+  border-color: #999; /* Light grey */
+}
+
+button {
+  background-color: #c0392b; /* Red */
+  color: #fff; /* White */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: #f00; /* Red */
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
